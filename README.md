@@ -1,6 +1,5 @@
 # Git Work Flow
 
-[TOC]
 
 [Credits to Codemy School ](https://www.youtube.com/watch?v=uUuTYDg9XoI&list=PLjQo0sojbbxVHcVN4h9DMu6U6spKk21uP)
 
@@ -150,7 +149,7 @@ git push origin develop
 
 
 # Release Branch
-*This is the final step*
+**This is the final step**
 
 ```json
 git flow release start 1.0.1
@@ -174,7 +173,7 @@ git push origin --all --follow-tags
 
 # Snippets
 
-*Copy paste in your terminal*
+**Copy paste in your terminal**
 
 ```json
 alias: git graph
@@ -183,5 +182,4 @@ git config --global alias.graph "log --graph --oneline --decorate "
 alias: git graph1
 git config --global alias.graph "log --graph --oneline --decorate --all"
 ```
-
 
